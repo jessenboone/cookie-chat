@@ -6,16 +6,44 @@ html {
 body {
   height: 95%;
   width: 100%;
-  font-family: sans-serif;
+  font-family: 'Bevan';
+  font-size: 22px;
+  background-color: whiteSmoke;
+}
+
+
+
+#styled-container {
+  float: left;
 }
 
 .main-container {
-  width: 75%;
-  margin: 10px auto;
-  background: rgba(255, 255, 255, 0.86);
-  padding: 5px;
-  border-radius: 10px;
+  width: 100%;
+  margin: 1px auto;
+  color: white;
+  padding: 15px;
+  background-color: slateGrey;
+  text-shadow: 5px 5px 5px midnightBlue;
+  font-family: 'Bevan';
+
 }
+
+.messages-container {
+  box-shadow: 10px 10px 5px midnightblue;
+  width: 75%;
+  height: 20%;
+  margin-left: 225px;
+  padding-top: 40px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-left: solid;
+
+  border-color: slategray;
+  border-width: 1px;
+  font-size: 22px;
+
+}
+
 
 .main-container h1 {
   text-align: center;
@@ -24,6 +52,9 @@ body {
 .text-box {
   margin: 0px auto;
   width: 40%;
+  color: midnightblue;
+
+
 }
 
 p{
